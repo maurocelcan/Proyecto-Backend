@@ -1,0 +1,105 @@
+body{
+  overflow-x: hidden;
+ 
+}
+
+
+.publicacion-detallada{
+  text-align: center;
+  margin: auto;
+  
+}
+.publicacion-detallada h1{
+  font-family: Verdana;
+  font-weight: 700;
+  color:goldenrod; 
+}
+.publicacion-detallada h4{
+  background-color: black;
+  color: rgb(0, 255, 0);
+}
+.publicacion-detallada h3{
+  color: white;
+  background-color: rgb(121, 187, 22);
+  border-radius: 25%;
+  margin: auto;
+  width: max-content;
+}
+.clasificados{
+ 
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.clasificados .card{
+  margin: 1rem;
+  
+  
+}
+.cards{
+  
+  border-radius: 15px;
+}
+
+.categorias{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:start;
+  align-items: center;
+  
+ 
+  
+}
+.categorias a{
+  width: 5rem;
+  margin: 0.5rem;
+  
+}
+.s-categoria{
+  font-weight: 600;
+  font-size: 2em;
+  width: 100%;
+  text-decoration: underline;
+}
+
+.footercustom{
+ 
+  background-color: #13151a;
+  color: #EBEBEB;
+  text-align: center;
+  
+  
+  
+}
+.btn-categoria{
+  width: auto !important;
+}
+.nodecoration{
+  list-style: none;
+}
+.prueba{
+  margin-bottom: 0%;
+}
+.formulario-admin{
+  margin: auto;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  width: 50%;
+  padding: 1%;
+  
+}
+main{
+  background:url("images/1.png")!important;
+}
+.select-admin{
+  margin-bottom: 1%;
+}
+span{
+  align-items: center;
+}
+.inline{
+  width: 100%;
+  
+}
